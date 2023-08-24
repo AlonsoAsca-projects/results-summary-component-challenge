@@ -1,4 +1,99 @@
-#summary-reaction{
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    background-color: #ffffff;
+    align-content: center;
+    text-align: center;
+}
+.result-box{
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: #ffffff;
+}
+.summary-box{
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 20px;
+}
+h2{
+    text-align: left;
+}
+p{
+    font-size: 18px;
+}
+.summary-reaction{
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: hsl(0, 100%, 67%);
-    background-color: lightblue;
+    background-color: hsl(0, 40%, 92%);
+    border-radius: 8px;
+}
+.summary-memory{
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 40%, 92%);
+    border-radius: 8px;
+}
+.summary-verbal{
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 40%, 92%);
+    border-radius: 8px;
+}
+.summary-visual{
+    border: none;
+    padding: 10px;
+    margin-bottom: 25px;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 40%, 92%);
+    border-radius: 8px;
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hsl(224, 30%, 27%);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+button:hover{
+    background-color: #2980b9;
+}
+.result-number{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
